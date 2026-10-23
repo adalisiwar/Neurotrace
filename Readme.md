@@ -43,5 +43,5 @@ Le flux de travail de NeuroTrace s'articule autour des étapes suivantes :
 | **API Backend & Orchestrateur** | À venir | Intégration FastAPI et des agents spécialisés. |
 | **Interface Web** | À venir | Interface de démonstration (HTML/CSS/JS). |
 
->  **Note sur la Blockchain** : L'architecture globale a été pensée de manière modulaire. Le module de hachage étant opérationnel, l'intégration avec le réseau Hyperledger Fabric est actuellement en cours de développement. Le pipeline IA est déjà pleinement fonctionnel et testé indépendamment.
+>  **Note sur la Blockchain** : L'architecture globale a été pensée de manière modulaire. l'intégration avec le réseau Hyperledger Fabric est actuellement en cours de développement. Le pipeline IA est déjà pleinement fonctionnel et testé indépendamment.
 
