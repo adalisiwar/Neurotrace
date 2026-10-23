@@ -38,10 +38,10 @@ Le flux de travail de NeuroTrace s'articule autour des étapes suivantes :
 | **Modèle IA (Classification)** | ✅ Terminé | Entraînement et évaluation (Accuracy, F1-Score, etc.). |
 | **Explicabilité (Grad-CAM)** | ✅ Terminé | Génération des heatmaps. |
 | **Hachage (SHA-256)** | ✅ Terminé | Module de calcul et vérification des empreintes. |
-| **Réseau Blockchain** | 🔄 **En cours** | Déploiement du réseau de test Hyperledger Fabric. |
-| **Smart Contract (Chaincode)** | 🔄 **En cours** | Développement des fonctions d'enregistrement et de vérification. |
-| **API Backend & Orchestrateur** | ⏳ À venir | Intégration FastAPI et des agents spécialisés. |
-| **Interface Web** | ⏳ À venir | Interface de démonstration (HTML/CSS/JS). |
+| **Réseau Blockchain** | **En cours** | Déploiement du réseau de test Hyperledger Fabric. |
+| **Smart Contract (Chaincode)** | **En cours** | Développement des fonctions d'enregistrement et de vérification. |
+| **API Backend & Orchestrateur** | À venir | Intégration FastAPI et des agents spécialisés. |
+| **Interface Web** | À venir | Interface de démonstration (HTML/CSS/JS). |
 
 >  **Note sur la Blockchain** : L'architecture globale a été pensée de manière modulaire. Le module de hachage étant opérationnel, l'intégration avec le réseau Hyperledger Fabric est actuellement en cours de développement. Le pipeline IA est déjà pleinement fonctionnel et testé indépendamment.
 
