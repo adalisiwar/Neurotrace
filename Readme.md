@@ -29,6 +29,18 @@ Le flux de travail de NeuroTrace s'articule autour des étapes suivantes :
 6. **Hachage** : Calcul de l'empreinte SHA-256 de chaque artefact (image, prédiction, validation).
 7. **Blockchain** : Enregistrement des empreintes et de la chaîne de provenance sur Hyperledger Fabric.
 8. **Vérification** : Contrôle ultérieur de l'intégrité (détection de toute modification).
+   
+## 🔬 Résultats de l'Explicabilité (Grad-CAM)
+
+Le modèle DenseNet121 atteint une excellente précision. Pour garantir la transparence, la méthode **Grad-CAM** est utilisée pour générer des cartes de chaleur (heatmaps) qui mettent en évidence les régions de l'IRM ayant influencé la prédiction.
+
+![Résultats Grad-CAM sur les 4 classes](assets/gradcam_results.png)
+
+*Exemple de prédictions avec scores de confiance élevés :*
+- **Gliome** (conf. 0.99) : La zone d'activation correspond bien à la lésion.
+- **Méningiome** (conf. 1.00) : Activation centrée sur la tumeur.
+- **Absence de tumeur** (notumor) (conf. 1.00) : Activation diffuse sur le tissu sain.
+- **Tumeur de l'hypophyse** (pituitary) (conf. 1.00) : Activation localisée à la base du crâne.
 
 ##  État d'Avancement
 
